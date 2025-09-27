@@ -1,0 +1,31 @@
+{
+  "name": "backend_2_coderhouse_entrega_1",
+  "version": "1.0.0",
+  "description": "",
+  "main": "src/main.js",
+  
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon src/main.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/IfreneArlandoArg/BackEnd_2_CoderHouse_Entrega_1.git"
+  },
+  "author": "Ifrene Arlando A.",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/IfreneArlandoArg/BackEnd_2_CoderHouse_Entrega_1/issues"
+  },
+  "homepage": "https://github.com/IfreneArlandoArg/BackEnd_2_CoderHouse_Entrega_1#readme",
+  "dependencies": {
+    "bcrypt": "^6.0.0",
+    "express": "^5.1.0",
+    "jsonwebtoken": "^9.0.2",
+    "mongoose": "^8.18.2",
+    "nodemon": "^3.1.10",
+    "passport": "^0.7.0",
+    "passport-jwt": "^4.0.1",
+    "passport-local": "^1.0.0"
+  }
+}
