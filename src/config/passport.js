@@ -5,7 +5,7 @@ const ExtractJwt = require('passport-jwt').ExtractJwt;
 const bcrypt = require('bcrypt');
 const User = require('../models/User');
 
-const JWT_SECRET = 'coderhouse_secret'; // Cambia esto en producción
+const JWT_SECRET = 'coderhouse_secret'; //Testing purposes only. Change this in production
 
 // Estrategia Local para login
 passport.use('login', new LocalStrategy({ usernameField: 'email' }, async (email, password, done) => {
