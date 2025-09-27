@@ -1,7 +1,7 @@
 {
-  "name": "backend_1_coderhouse_entrega_1",
-  "version": "1.0.0",
-  "description": "Entrega correspondiendo a la 1ra entrega para el curso de BackEnd 1 CoderHouse.",
+  "name": "backend_2_coderhouse_entrega_1",
+  "version": "2.0.0",
+  "description": "Entrega correspondiendo a la 1ra entrega para el curso de BackEnd 2 CoderHouse.",
   "main": ".\\src\\main.js",
   "type": "module",
   "scripts": {
